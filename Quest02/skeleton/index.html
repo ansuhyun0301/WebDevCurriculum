@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Quest 1</title>
+		<title>Quest 2</title>
 	</head>
 	<body>
 		<header class="headerContainer">
@@ -21,7 +21,7 @@
 		</header>
 
 		<section class="main">
-			<img class="logoImg" src="../naverLogo.png" alt="">
+			<img class="logoImg" src="./naverLogo.png" alt="">
 			
 			<div>
 				<input class="searchInput" type="text" placeholder="검색어를 입력해주세요.">
@@ -38,69 +38,114 @@
 				<button>···</button>
 			</div>
 
-			<div>
-				<img class="moonImg" src="../moon.png">
-				<span>10도 맑음&nbsp;&nbsp;&nbsp;</span>
-				<span>NOW.</span>
-				<button>침대</button>
-				<button>라디오</button>
+			<div class="weatherNowContainer">
+				<div class="weatherContainer">
+					<div class="weatherInner">
+						<img class="moonImg" src="./moon.png">
+						<div class="weatherDegree">
+							<b>10° 맑음</b>
+							<spna>어제보다 2° 높아요</spna>
+						</div>
+					</div>
+
+					<div class="nowContainer">
+						<div class="nowInner">
+							<b>NOW.</b>
+							<span>지금 방송중</span>
+						</div>
+						<button>IMAGE 1</button>
+						<button>IMAGE 2</button>
+					</div>
+				</div>
 			</div>
 
-			<div>
-				<h4>날씨</h4>
-				<button>시간대별 날씨</button>
-				<button>시간대별 미세먼지</button>
-				<button>주간 날씨</button>
-				<button>주간 미세먼지</button>
-			</div>
-			<br>
+			<div class="detailWeatherContainer">
+				<div class="detailWeatherInner">
+					<div class="detailWeatherTitle">
+						<b>날씨</b>
+						<span>서울시 잠실동</span>
+					</div>
 
-			<div>
-				<b>코로나19</b>
-				<b>코로나19 팩트체크</b>
+					<div class="deatilWeatherBtns">
+						<button>시간대별 날씨</button>
+						<button>시간대별 미세먼지</button>
+						<button>주간 날씨</button>
+						<button>주간 미세먼지</button>
+					</div>
+				</div>
 			</div>
-			<br>
 
-			<div>
-				<span>제102주년 대한민국 임시정부 수립일</span>
+			<div class="covidContainer">
+				<div class="covidInner">
+					<b>코로나19</b>
+					<span>국내외 확진 현황</span>
+				</div>
+
+				<div class="covidFactInner">
+					<b>코로나19 팩트체크</b>
+					<span>백신 정보 팩트는?</span>
+				</div>
 			</div>
-			<br>
 
-			<div>
-				<span>앱으로 <b>새로운 네이버</b>를 더 쾌적하게 사용해 보세요.</span>
+			<div class="adverContainer">
+				<img class="koreaImg" src="./korea.jpg">
+				<span>제102주년 <b>대한민국 임시정부 수립일</b></span>
+			</div>
+
+			<div class="naverAppConatiner">
+				<div class="naverAppInner">
+					<img class="naverAppImg" src="./naver.ico ">
+					<span>앱으로 <b>새로운 네이버</b>를 더 쾌적하게 사용해 보세요.</span>
+				</div>
+
 				<button>앱 사용하기</button>
 			</div>
-			<br>
 
-			<div>
+			<div class="webToonContainer">
 				<sapn>웹툰</sapn>
+				<img class="downBtn" src="./downArrow.png">
 			</div>
 
-			<div>
-				<h4>인기 주제 판을 확인해 보세요!</h4>
-				<div>
-					<button>영화판</button>
-					<button>뿜판</button>
+			<div class="panContainer">
+				<div class="panTitle">
+					<h4>인기 주제 판을 확인해 보세요!</h4>
+					<span>판관리</span>
 				</div>
-				<div>
-					<button>웹툰판</button>
-					<button>경제M판</button>
+
+				<div class="panBtns">
+					<div class="pans">
+						<span>영화판</span>
+						<span>></span>
+					</div>
+					<div class="pans">
+						<span>뿜판</span>
+						<span>></span>
+					</div>
+					<div class="pans">
+						<span>웹툰판</span>
+						<span>></span>
+					</div>
+					<div class="pans">
+						<span>경제M판</span>
+						<span>></span>
+					</div>
 				</div>
 			</div>
-			<br>
 
-			<div>
-				<span>알립니다</span>
-				<b>네이버앱 업데이트 사전 안내</b>
+			<div class="noticeContainer">
+				<div class="noticeTitle">
+					<b>알립니다</b>
+					<span>네이버앱 업데이트 사전 안내</span>
+				</div>
+
+				<span>></span>
 			</div>
 		</section>
 		
-		<hr />
-
-		<footer>
-			<div>
+		<footer class="footerContainer">
+			<div class="footerBtns">
 				<span>로그인 | 전체서비스 | PC버전</span>
-				<span>이용야관 | 개인정보처리방침 | 고객센터</span>
+				<span>이용야관 | <b>개인정보처리방침</b> | 고객센터</span>
 			</div>
 
 			<h2>NAVER</h2>

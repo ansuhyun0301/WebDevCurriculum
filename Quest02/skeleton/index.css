@@ -53,3 +53,272 @@
     background-color: #DCDCDC;
     cursor: pointer;
 }
+
+.weatherNowContainer {
+    display: flex;
+    width: 650px;
+    height: 100px;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.weatherContainer {
+    display: flex;
+    width: 650px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.weatherInner {
+    display: flex;
+    width: 50%;
+}
+
+.moonImg {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.weatherDegree {
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherDegree> b {
+    font-size: 15pt;
+}
+
+.nowContainer {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nowInner {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.nowInner> b {
+    font-size: 15pt;
+    color: red;
+}
+
+.nowInner> span {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.nowContainer> button {
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    border-radius: 100%;
+    background-color: #DCDCDC;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.detailWeatherContainer {
+    display: flex;
+    width: 650px;
+    height: 130px;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.detailWeatherInner {
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.detailWeatherTitle> b {
+    font-size: 15pt;
+}
+
+.deatilWeatherBtns> button {
+    border: 0px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #F0F8FF;
+    font-weight: bold;
+}
+
+.covidContainer {
+    display: flex;
+    width: 610px;
+    height: 80px;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.covidInner, .covidFactInner {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.adverContainer {
+    display: flex;
+    width: 610px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.koreaImg {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.naverAppConatiner {
+    display: flex;
+    width: 610px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.naverAppInner {
+    display: flex;
+    align-items: center;
+}
+
+.naverAppImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.naverAppConatiner> button {
+    background-color: white;
+    border: 1px solid #0066FF;
+    border-radius: 3px;
+    padding: 7px 10px;
+    color: #0066FF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.webToonContainer {
+    display: flex;
+    width: 610px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.downBtn {
+    width: 20px;
+    cursor: pointer;
+}
+
+.panContainer {
+    display: flex;
+    width: 610px;
+    height: 160px;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.panTitle {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.panTitle> span {
+    color: gray;
+}
+
+.panBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pans {
+    display: flex;
+    width: 45%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #DCDCDC;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.noticeContainer {
+    display: flex;
+    width: 610px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.noticeTitle> b {
+    border: 1px solid #2DB400;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10pt;
+    color: #2DB400;
+}
+
+.noticeContainer> span {
+    cursor: pointer;
+}
+
+.footerContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerBtns> span {
+    margin-bottom: 5px;
+}
+
+.footerContainer> h2 {
+    color: #DCDCDC;
+}
